@@ -41,16 +41,16 @@ public class CheckNumber {
 	 * @param victim
 	 * @return true of false
 	 */
-	public boolean ispalindrome(double victim) {
+	public boolean ispalindrome(int victim) {
 		String victimString = String.valueOf(victim);
-		return((new StringBuilder(victimString).reverse().toString()).equals(victimString)) ? true : false;
+		return((new StringBuilder(victimString).reverse().toString()).equals(victimString));
 	}
 	/**
 	 * returns everything
 	 * @param victim
 	 * @return everything about the variable
 	 */
-	public String displayNumberChararacteristics(double victim) {
+	public String displayNumberChararacteristics(int victim) {
 		String parsedOutput;
 		parsedOutput = "The number is " + ((new CheckNumber().isPositive(victim) == true) ? "" : "not ") + "a positive number";
 		parsedOutput += " and it is " + ((new CheckNumber().isNegative(victim) == true) ? "" : "not ") + "a negative number";
