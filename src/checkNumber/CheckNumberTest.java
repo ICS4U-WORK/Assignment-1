@@ -1,5 +1,11 @@
 package checkNumber;
 
+/**
+ * Class checks CheckNumber for functionality based on user input by human operating the program.
+ * Enter a positive integer and it will be checked
+ * @author macdja38
+ */
+
 public class CheckNumberTest {
 	public static void main(String args[]) {
 		System.out.println("Please input a number you would like the characteristics of to be checked.");

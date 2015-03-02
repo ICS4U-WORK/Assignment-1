@@ -2,8 +2,8 @@ package checkNumber;
 
 /**
  * Group of checks that can be used to determine characteristics of a number.
+ * Checks for: positive, negative, palindrome and prime
  * @author macdja38
- * @depreciated no support will be provided.
  */
 public class CheckNumber {
 	/**
